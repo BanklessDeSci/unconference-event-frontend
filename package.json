@@ -7,7 +7,11 @@
   "homepage": "https://demo.vercel.events",
   "license": "Apache-2.0",
   "engines": {
+<<<<<<< HEAD
     "node": "^18"
+=======
+    "node": "^14"
+>>>>>>> parent of 6468c52 (add update node verstion to 20)
   },
   "scripts": {
     "dev": "next",
