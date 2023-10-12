@@ -24,6 +24,12 @@ type Props = {
 };
 
 export default function SpeakersGrid({ speakers }: Props) {
+
+    // Verifica si hay oradores en la lista.
+    if (speakers.length === 0) {
+      return <div>No hay oradores para mostrar.</div>;
+    }
+
   return (
     <div className={styles.grid}>
       {speakers.map(speaker => (
